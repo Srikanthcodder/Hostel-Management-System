@@ -1,8 +1,12 @@
-import Image from "next/image";
+
+import hostelNavbar from "./hosteNavbar/page";
 
 export default function Home() {
   return (
-    // modifed by 
-    <div>Six </div>
+  <>
+  <hostelNavbar />
+  <div>hi </div>
+  </>
+  
   );
 }
